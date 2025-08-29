@@ -1,0 +1,8 @@
+{
+  "threshold": 0.001,
+  "sensitivity": 1.8,
+  "auto_calibration": true,
+  "fish_count": 0,
+  "background_level": 0.0005,
+  "language": "EN"
+}

@@ -1,0 +1,20 @@
+## Installing dependencies for the bot
+
+The following components are required for the bot to work:
+
+1. Python 3.10 or newer (download from python.org)
+2. Python dependencies: pyautogui, soundcard, numpy
+
+### Method 1: Manual installation via Command Prompt
+Open Command Prompt (Win + R, type cmd) and run the command:
+
+pip install pyautogui soundcard numpy
+
+### Method 2: Automatic installation
+Run the install_dependencies.bat file - it will automatically install all required libraries.
+
+### Verification
+After installation, launch the bot with:
+python nierfishingbot.py
+
+If you encounter errors, make sure Python is installed and added to PATH.

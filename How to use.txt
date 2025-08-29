@@ -1,0 +1,40 @@
+## Calibration
+
+The bot needs to be calibrated for your audio system:
+
+1. Make sure Stereo Mix is enabled and set as the default recording device
+2. Launch NieRAutomata in windowed mode
+3. Stand in a quiet fishing spot in the game and start fishing
+4. Click "Calibrate" - the bot will listen to background noise for 5 seconds
+5. The threshold will be automatically set to 1.8x the maximum background noise
+6. Adjust the sensitivity manually if needed
+7. Click "Start" to begin automated fishing and switch to the game window
+8. Click "Stop" when you're done
+
+## Tested Locations
+
+- City Ruins - Pond near the Resistance Camp
+- Desert Zone - Oil Field
+- Desert Zone - Oasis
+
+## Troubleshooting
+
+**Bot doesn't detect fish:**
+- Make sure Stereo Mix is enabled and working
+
+**No audio detection:**
+- Ensure headphones are plugged into the rear audio panel (not front)
+- Test Stereo Mix with audio recording software
+
+**False positives:**
+- Increase the sensitivity value
+- Move to a quieter fishing spot
+- Check that music and voices in the game are disabled
+
+## Installation
+
+To install all required dependencies, run this command in Command Prompt:
+
+pip install pyautogui soundcard numpy
+
+Or use the install_dependencies.bat file for automatic installation.
